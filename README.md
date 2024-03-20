@@ -17,3 +17,6 @@ If it detects the ID byte is "ee" or "EE" then it will parse a GPT partition tre
 GPT tree shows the partitions GUID type, First and Last LBA address in both hex and decimal values. As well as the Partition name decoded to Romani characters (ASCII).
 
 MBR tree shows the ID of the partition and extracts the type of partition by comparing the JSON file containing each ID and their corresponding partition, then it also prints the 16 bytes starting from the offset that was entered in the -o argument (For this we used the LBA * 512 + offsets to find the 16 bytes in the offset regarding the position of the start LBA address). It also outputs the ASCII translation of the 16 bytes.
+
+# Testing
+I uploaded two "raw" files for testing purposes, feel free to use any file you want. 
