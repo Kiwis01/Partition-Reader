@@ -3,8 +3,8 @@
 This code was made with standard python libraries, imports are "argparse, hashlib, os, json".
 To run the code you can execute the makefile by entering "make" on the terminal or referencing the makfile directly "make makefile". Then an executable "./boot_info" will be available to use.
 
-Usage "./boot_info -f file.raw    -o 123 73 234"
-		  --f {filename} --o {offsets}
+Usage "./boot_info -f file.raw -o 123 73 234"
+--f {filename} --o {offsets}
 
 This code can calculate MD5 hash and SHA 256 SHA hash values and store them into a designated txt file with the name of the raw file in between the hash and .txt, ex. "MD5-{filename}.txt". 
 
