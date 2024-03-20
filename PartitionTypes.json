@@ -1,0 +1,394 @@
+[
+  {
+    "hex": "00",
+    "desc": "Empty"
+  },
+  {
+    "hex": "01",
+    "desc": "FAT12"
+  },
+  {
+    "hex": "02",
+    "desc": "XENIX root"
+  },
+  {
+    "hex": "03",
+    "desc": "XENIX usr"
+  },
+  {
+    "hex": "04",
+    "desc": "FAT16 <32M"
+  },
+  {
+    "hex": "05",
+    "desc": "Extended"
+  },
+  {
+    "hex": "06",
+    "desc": "FAT16"
+  },
+  {
+    "hex": "07",
+    "desc": "HPFS/NTFS/exFAT"
+  },
+  {
+    "hex": "08",
+    "desc": "AIX"
+  },
+  {
+    "hex": "09",
+    "desc": "AIX bootable"
+  },
+  {
+    "hex": "0a",
+    "desc": "OS/2 Boot Manag"
+  },
+  {
+    "hex": "0b",
+    "desc": "W95 FAT32"
+  },
+  {
+    "hex": "0c",
+    "desc": "W95 FAT32 (LBA)"
+  },
+  {
+    "hex": "0e",
+    "desc": "W95 FAT16 (LBA)"
+  },
+  {
+    "hex": "0f",
+    "desc": "W95 Ext'd (LBA)"
+  },
+  {
+    "hex": 10,
+    "desc": "OPUS"
+  },
+  {
+    "hex": 11,
+    "desc": "Hidden FAT12"
+  },
+  {
+    "hex": 12,
+    "desc": "Compaq diagnost"
+  },
+  {
+    "hex": 14,
+    "desc": "Hidden FAT16 <3"
+  },
+  {
+    "hex": 16,
+    "desc": "Hidden FAT16"
+  },
+  {
+    "hex": 17,
+    "desc": "Hidden HPFS/NTF"
+  },
+  {
+    "hex": 18,
+    "desc": "AST SmartSleep"
+  },
+  {
+    "hex": "1b",
+    "desc": "Hidden W95 FAT3"
+  },
+  {
+    "hex": "1c",
+    "desc": "Hidden W95 FAT3"
+  },
+  {
+    "hex": "1e",
+    "desc": "Hidden W95 FAT1"
+  },
+  {
+    "hex": 24,
+    "desc": "NEC DOS"
+  },
+  {
+    "hex": 27,
+    "desc": "Hidden NTFS Win"
+  },
+  {
+    "hex": 39,
+    "desc": "Plan 9"
+  },
+  {
+    "hex": "3c",
+    "desc": "PartitionMagic"
+  },
+  {
+    "hex": 40,
+    "desc": "Venix 80286"
+  },
+  {
+    "hex": 41,
+    "desc": "PPC PReP Boot"
+  },
+  {
+    "hex": 42,
+    "desc": "SFS"
+  },
+  {
+    "hex": "4d",
+    "desc": "QNX4.x"
+  },
+  {
+    "hex": "4e",
+    "desc": "QNX4.x 2nd part"
+  },
+  {
+    "hex": "4f",
+    "desc": "QNX4.x 3rd part"
+  },
+  {
+    "hex": 50,
+    "desc": "OnTrack DM"
+  },
+  {
+    "hex": 51,
+    "desc": "OnTrack DM6 Aux"
+  },
+  {
+    "hex": 52,
+    "desc": "CP/M"
+  },
+  {
+    "hex": 53,
+    "desc": "OnTrack DM6 Aux"
+  },
+  {
+    "hex": 54,
+    "desc": "OnTrackDM6"
+  },
+  {
+    "hex": 55,
+    "desc": "EZ-Drive"
+  },
+  {
+    "hex": 56,
+    "desc": "Golden Bow"
+  },
+  {
+    "hex": "5c",
+    "desc": "Priam Edisk"
+  },
+  {
+    "hex": 61,
+    "desc": "SpeedStor"
+  },
+  {
+    "hex": 63,
+    "desc": "GNU HURD or Sys"
+  },
+  {
+    "hex": 64,
+    "desc": "Novell Netware"
+  },
+  {
+    "hex": 65,
+    "desc": "Novell Netware"
+  },
+  {
+    "hex": 70,
+    "desc": "DiskSecure Mult"
+  },
+  {
+    "hex": 75,
+    "desc": "PC/IX"
+  },
+  {
+    "hex": 80,
+    "desc": "Old Minix"
+  },
+  {
+    "hex": 81,
+    "desc": "Minix / old Lin"
+  },
+  {
+    "hex": 82,
+    "desc": "Linux swap / So"
+  },
+  {
+    "hex": 83,
+    "desc": "Linux"
+  },
+  {
+    "hex": 84,
+    "desc": "OS/2 hidden C:"
+  },
+  {
+    "hex": 85,
+    "desc": "Linux extended"
+  },
+  {
+    "hex": 86,
+    "desc": "NTFS volume set"
+  },
+  {
+    "hex": 87,
+    "desc": "NTFS volume set"
+  },
+  {
+    "hex": 88,
+    "desc": "Linux plaintext"
+  },
+  {
+    "hex": "8e",
+    "desc": "Linux LVM"
+  },
+  {
+    "hex": 93,
+    "desc": "Amoeba"
+  },
+  {
+    "hex": 94,
+    "desc": "Amoeba BBT"
+  },
+  {
+    "hex": "9f",
+    "desc": "BSD/OS"
+  },
+  {
+    "hex": "a0",
+    "desc": "IBM Thinkpad hi"
+  },
+  {
+    "hex": "a5",
+    "desc": "FreeBSD"
+  },
+  {
+    "hex": "a6",
+    "desc": "OpenBSD"
+  },
+  {
+    "hex": "a7",
+    "desc": "NeXTSTEP"
+  },
+  {
+    "hex": "a8",
+    "desc": "Darwin UFS"
+  },
+  {
+    "hex": "a9",
+    "desc": "NetBSD"
+  },
+  {
+    "hex": "ab",
+    "desc": "Darwin boot"
+  },
+  {
+    "hex": "af",
+    "desc": "HFS / HFS+"
+  },
+  {
+    "hex": "b7",
+    "desc": "BSDI fs"
+  },
+  {
+    "hex": "b8",
+    "desc": "BSDI swap"
+  },
+  {
+    "hex": "bb",
+    "desc": "Boot Wizard hid"
+  },
+  {
+    "hex": "be",
+    "desc": "Solaris boot"
+  },
+  {
+    "hex": "bf",
+    "desc": "Solaris"
+  },
+  {
+    "hex": "c1",
+    "desc": "DRDOS/sec (FAT-"
+  },
+  {
+    "hex": "c4",
+    "desc": "DRDOS/sec (FAT-"
+  },
+  {
+    "hex": "c6",
+    "desc": "DRDOS/sec (FAT-"
+  },
+  {
+    "hex": "c7",
+    "desc": "Syrinx"
+  },
+  {
+    "hex": "da",
+    "desc": "Non-FS data"
+  },
+  {
+    "hex": "db",
+    "desc": "CP/M / CTOS / ."
+  },
+  {
+    "hex": "de",
+    "desc": "Dell Utility"
+  },
+  {
+    "hex": "df",
+    "desc": "BootIt"
+  },
+  {
+    "hex": "e1",
+    "desc": "DOS access"
+  },
+  {
+    "hex": "e3",
+    "desc": "DOS R/O"
+  },
+  {
+    "hex": "e4",
+    "desc": "SpeedStor"
+  },
+  {
+    "hex": "eb",
+    "desc": "BeOS fs"
+  },
+  {
+    "hex": "ee",
+    "desc": "GPT"
+  },
+  {
+    "hex": "ef",
+    "desc": "EFI (FAT-12/16/"
+  },
+  {
+    "hex": "f0",
+    "desc": "Linux/PA-RISC b"
+  },
+  {
+    "hex": "f1",
+    "desc": "SpeedStor"
+  },
+  {
+    "hex": "f4",
+    "desc": "SpeedStor"
+  },
+  {
+    "hex": "f2",
+    "desc": "DOS secondary"
+  },
+  {
+    "hex": "fb",
+    "desc": "VMware VMFS"
+  },
+  {
+    "hex": "fc",
+    "desc": "VMware VMKCORE"
+  },
+  {
+    "hex": "fd",
+    "desc": "Linux raid auto"
+  },
+  {
+    "hex": "fe",
+    "desc": "LANstep"
+  },
+  {
+    "hex": "ff",
+    "desc": "BBT"
+  }
+]
